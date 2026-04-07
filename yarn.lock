@@ -754,7 +754,7 @@
     "@babel/plugin-transform-modules-commonjs" "^7.27.1"
     "@babel/plugin-transform-typescript" "^7.28.5"
 
-"@babel/runtime@^7.20.0", "@babel/runtime@^7.25.0":
+"@babel/runtime@^7.17.8", "@babel/runtime@^7.20.0", "@babel/runtime@^7.25.0":
   version "7.29.2"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz#9a6e2d05f4b6692e1801cd4fb176ad823930ed5e"
   integrity sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==
@@ -3141,6 +3141,11 @@ expo-glass-effect@^55.0.10, expo-glass-effect@~55.0.10:
   resolved "https://registry.npmjs.org/expo-glass-effect/-/expo-glass-effect-55.0.10.tgz#5db7a154e8c7dd89a7fc91f87a1d5387364f0f20"
   integrity sha512-5kL/jATvgJWdrqPdxixrECJqD2l8cfQ4ALr1DK7qi9XkyI97ejXvUjB2VsfEePNy3Fg+/VwzA3n3L7Nv3tAPkw==
 
+expo-haptics@~55.0.13:
+  version "55.0.13"
+  resolved "https://registry.npmjs.org/expo-haptics/-/expo-haptics-55.0.13.tgz#8cd10850795d6fdc714114bbd2be5964829a52aa"
+  integrity sha512-mfchTuKX6aiR3CEn1NyUviSnp9NwunuBlx2p5XIQymvCBwDxUddJlrStz5gMPUb6phUS+1YSH5O2S+IyFgqFjA==
+
 expo-image@^55.0.8, expo-image@~55.0.8:
   version "55.0.8"
   resolved "https://registry.npmjs.org/expo-image/-/expo-image-55.0.8.tgz#0b23054041508e70948bd4ab5d3f6bdd71c53989"
@@ -4842,6 +4847,13 @@ pngjs@^3.3.0:
   version "3.4.0"
   resolved "https://registry.npmjs.org/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
   integrity sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==
+
+polished@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.npmjs.org/polished/-/polished-4.3.1.tgz#5a00ae32715609f83d89f6f31d0f0261c6170548"
+  integrity sha512-OBatVyC/N7SCW/FaDHrSd+vn0o5cS855TOmYi4OkdWUMSJCET/xip//ch8xGUvtr3i44X9LVyWwQlRMTN3pwSA==
+  dependencies:
+    "@babel/runtime" "^7.17.8"
 
 postcss@~8.4.32:
   version "8.4.49"
