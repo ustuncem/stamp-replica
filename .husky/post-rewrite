@@ -1,0 +1,3 @@
+if [ "$1" = "rebase" ]; then
+	yarn sync-deps-if-needed
+fi
